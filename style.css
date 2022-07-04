@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(221, 221, 221);
+  font-family: "Cormorant Garamond", serif;
+  color: #000;
+}
+
+.container {
+  max-width: 1200px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+.main {
+  max-width: 1000px;
+  background-color: #fff;
+  padding-top: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.btn {
+  display: inline-block;
+  box-sizing: border-box;
+  cursor: pointer;
+  padding: 5px 13px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: #fff;
+  color: rgb(172, 172, 172);
+  border: 1px solid rgb(172, 172, 172);
+  border-radius: 3px;
+  margin-top: 20px;
+}
+
+.header {
+  width: 1200px;
+  border-bottom: 1px solid rgb(221, 221, 221);
+}
+.header .header-inner {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  height: 100px;
+}
+.header .header-inner .logo {
+  text-transform: uppercase;
+}
+.header .header-inner a {
+  margin-left: 30px;
+  font-size: 17px;
+  font-weight: 500;
+}
+.header .menu {
+  margin-right: 100px;
+}
+.header .menu .menu-list {
+  display: flex;
+}
+.header .menu .menu-list .menu-list__item {
+  margin-right: 10px;
+}
+.header .header-socials ul {
+  display: flex;
+}
+.header .header-socials img {
+  width: 15px;
+  height: 15px;
+}
+
+.greeting {
+  display: flex;
+}
+.greeting .greeting-text {
+  width: 50%;
+  padding: 90px 60px 30px 90px;
+}
+.greeting .greeting-text h1 {
+  padding-bottom: 25px;
+  font-size: 30px;
+  font-weight: 400;
+}
+.greeting .greeting-text .main-text {
+  font-size: 20px;
+  padding-bottom: 10px;
+  color: black;
+}
+.greeting .greeting-text p {
+  font-size: 16px;
+  color: rgb(53, 53, 53);
+}
+.greeting .greeting-image {
+  width: 50%;
+  width: 50%;
+}
+.greeting .greeting-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.articles .article-first {
+  display: flex;
+  border-bottom: 1px solid rgb(221, 221, 221);
+}
+.articles .article-first .article-first-image {
+  width: 35%;
+}
+.articles .article-first .article-first-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.articles .article-first .article-first-text {
+  width: 65%;
+  padding: 70px 50px;
+}
+.articles .article-first .article-first-text h2 {
+  font-size: 25px;
+  font-weight: 400;
+}
+.articles .article-first .article-first-text p {
+  font-size: 16px;
+  padding: 20px 0;
+}
+.articles .article-second {
+  display: flex;
+  border-bottom: 1px solid rgb(221, 221, 221);
+}
+.articles .article-second .article-second-text {
+  width: 65%;
+  padding: 70px 50px;
+}
+.articles .article-second .article-second-text h2 {
+  font-size: 25px;
+  font-weight: 400;
+}
+.articles .article-second .article-second-text p {
+  font-size: 16px;
+  padding: 20px 0;
+}
+.articles .article-second .article-second-image {
+  width: 35%;
+}
+.articles .article-second .article-second-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=style.css.map */
