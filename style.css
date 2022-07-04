@@ -165,4 +165,142 @@ ul {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.gallery h2 {
+  margin: 30px 0;
+  text-align: center;
+}
+.gallery .gallery-block {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  overflow-x: hidden;
+}
+.gallery .gallery-block .gallery-item {
+  position: relative;
+}
+.gallery .gallery-block .gallery-item img {
+  display: block;
+  position: relative;
+  max-width: 100%;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.5s linear;
+}
+.gallery .gallery-block .gallery-item div {
+  width: 100;
+}
+
+.features h2 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.features .features-block {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: grey;
+  gap: 1px;
+}
+.features .features-item {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 30px;
+}
+.features .features-item img {
+  width: 30px;
+  height: 30px;
+}
+.features .features-item h4 {
+  padding: 20px;
+}
+.features .features-item p {
+  text-align: center;
+}
+
+.form h2 {
+  text-align: center;
+  margin: 30px 0;
+}
+.form .form-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.form .form-box .form-block {
+  flex-grow: 1;
+}
+.form .form-box .form-group {
+  display: flex;
+  width: 100%;
+}
+.form .form-box .form-input {
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 3px;
+}
+.form .form-box .form-topic {
+  width: 100%;
+}
+.form .form-box .form-area {
+  width: 100%;
+  padding: 14px;
+  height: 150px;
+  resize: none;
+  margin-bottom: 15px;
+}
+.form .form-box .form-button {
+  display: inline-block;
+  box-sizing: border-box;
+  cursor: pointer;
+  padding: 5px 13px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: #fff;
+  color: rgb(172, 172, 172);
+  border: 1px solid rgb(172, 172, 172);
+  border-radius: 3px;
+  margin-top: 25px;
+  margin-bottom: 45px;
+}
+
+.footer {
+  border-top: 1px solid rgb(131, 131, 131);
+  width: 1200px;
+}
+.footer .socials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px 0px;
+}
+.footer .socials img {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  border: 1px solid rgb(134, 134, 134);
+  border-radius: 50%;
+  padding: 5px;
+  transition: all 0.6s ease 0s;
+}
+.footer .socials img:hover {
+  cursor: pointer;
+  background-color: rgba(134, 134, 134, 0.753);
+}
+.footer .copyright {
+  margin-bottom: 20px;
+}
+.footer .copyright p {
+  text-transform: uppercase;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
